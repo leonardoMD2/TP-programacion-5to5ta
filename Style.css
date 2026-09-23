@@ -1,0 +1,90 @@
+header{
+    text-align: center;
+    background: rgb(255, 255, 255);
+    color: white;
+    padding: 10px;
+}
+
+.definicion {
+    background: #f0f0f0;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.contenedor {
+    display: flex;
+    background: #ffffff;
+    padding: 10px;
+}
+
+h2{
+    font-family: "Damion", cursive;
+    font-size: 40px;
+    color: lightsalmon;
+}
+
+.letra-rojo{
+    color: red;
+}
+
+.titulo{
+    font-family: "Bitcount Prop Double Ink", system-ui;
+    font-size: 55px;
+}
+
+.cuadrado {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.rojo { 
+    background: red; 
+}
+.azul { 
+    background: blue; 
+}
+.amarillo { 
+    background: yellow; 
+}
+
+.ej-display-flex {
+    flex-direction: row;
+}
+
+.ej-flex-direction {
+    flex-direction: column;
+}
+
+.ej-flex-wrap {
+    max-width: 180px;
+    flex-wrap: wrap; 
+}
+
+.ej-flex-flow {
+    flex-flow: row wrap;
+}
+
+.ej-justify-content {
+    justify-content: space-around;
+}
+
+.ej-align-items {
+    align-items: center;
+}
+
+.ej-align-content {
+    max-width: 180px;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 140px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    background: gray;
+    color: white;
+    padding: 10px;
+}
+
